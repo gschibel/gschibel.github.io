@@ -1,1 +1,72 @@
+*{
+    color: rgba(255, 192, 203, 0.973);
+}
 
+h1{
+    text-align:  center;
+    
+}
+
+body{
+    background-color:rgba(36, 6, 65, 0.637);
+}
+
+.Kirby{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    padding-top:10px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+caption{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top:20px;
+}
+.year{
+    padding-left:10px;
+    padding-right:10px;
+}
+.Kirbo{
+    position: relative;
+    left:10%;
+    bottom:50px
+    
+}
+h3{
+    position: relative;
+    top: 50px;
+    left: 12%;
+}
+p{
+    font-size: 16px;
+}
+.title2{
+    
+}
+ul{
+    padding-left:40%;
+    padding-right:40%;
+    font-size: 20px;
+    
+}
+li{
+    color: yellow;
+    padding-bottom: 4%;
+}
+h2{
+    text-align: center;
+}
