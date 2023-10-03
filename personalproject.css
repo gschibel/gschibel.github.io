@@ -43,12 +43,12 @@ caption{
 .Kirbo{
     position: relative;
     left:10%;
-    bottom:50px
+    bottom:30px
     
 }
 h3{
     position: relative;
-    top: 50px;
+    top: 40px;
     left: 12%;
 }
 p{
@@ -69,4 +69,47 @@ li{
 }
 h2{
     text-align: center;
+}
+.list_title{
+    color: yellow;
+}
+.return_main{
+    position: relative;
+    bottom:200px;
+    left:12%;
+}
+.music{
+    position: relative;
+    left: 70%;
+    bottom: 475px;
+}
+.music_text{
+    position: relative;
+    left: 68%;
+   top: -500px;
+}
+.music_main{
+    position: relative;
+    top:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+audio{
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 10px;
+}
+
+h4{
+    text-align: center;
+    padding-top: 35px;
+}
+.Kirby_return{
+    position: relative;
+    left:10%;
+    top: 25px;
 }
