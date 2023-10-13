@@ -1,35 +1,41 @@
 
 *{
     color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size: 22px
  
 }
 body {
-    
     background: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?cs=srgb&dl=pexels-francesco-ungaro-998641.jpg&fm=jpg") ;  
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 299%;
+    height: 100%;
     width: 100%;
 }
 #zen-intro{
     text-align: center;
     background-color: red;
    border: 15px solid rgb(228, 243, 19);
-    margin: 300px 500px;
-    
-
+    margin: auto auto;
+    width:50%;
+    float: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 #zen-intro h1{
     font-size: 50px;
+    
 }
-
 #zen-supporting{
     position: relative;
-    top: 100px;
+    top: 10rem;
     left: 10%;
     background-color: rgb(105, 95, 150);
-    width:30%;
+    width:50%;
     border: 15px solid rgb(228, 243, 19);
     padding-left: 20px;
     padding-right: 20px;
@@ -38,25 +44,27 @@ body {
 
 }
 #zen-supporting h3{
-    color: yellow;
+    color: rgb(0, 255, 13);
+    font-size: 28px;
 }
 
 a:hover{
     color: rgb(146, 19, 40);
 }
 .sidebar {
+    display:block;
     position: relative;
-    bottom: 700px;
-    left:60% ;
+    bottom: 40rem;
+    left:70% ;
     background-color: rgb(47, 170, 98);
-    width:12%;
+    width:18rem;
     border: 15px solid rgb(228, 243, 19);
     padding-left: 20px;
     margin: 20px;
     
 }
 .sidebar h3{
-    color: yellow
+    color: rgb(110, 12, 238);
 }
 .wrapper li{
     padding-bottom: 5px;
