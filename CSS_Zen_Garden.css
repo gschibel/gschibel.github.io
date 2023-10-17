@@ -28,12 +28,23 @@ body {
 }
 #zen-intro h1{
     font-size: 50px;
+    font-weight: normal;
     
+}
+#zen-intro h2{
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+#zen-intro h3{
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: normal;
 }
 #zen-supporting{
     position: relative;
-    top: 10rem;
-    left: 10%;
+    top: 5rem;
     background-color: rgb(105, 95, 150);
     width:50%;
     border: 15px solid rgb(228, 243, 19);
@@ -44,8 +55,9 @@ body {
 
 }
 #zen-supporting h3{
-    color: rgb(0, 255, 13);
+    color: rgb(114, 206, 118);
     font-size: 28px;
+    font-weight: normal;
 }
 
 a:hover{
@@ -54,17 +66,19 @@ a:hover{
 .sidebar {
     display:block;
     position: relative;
-    bottom: 40rem;
-    left:70% ;
+    top: -45rem;
+    left:60% ;
     background-color: rgb(47, 170, 98);
-    width:18rem;
+    width:16rem;
     border: 15px solid rgb(228, 243, 19);
     padding-left: 20px;
-    margin: 20px;
+    margin-right: 5rem;
     
 }
 .sidebar h3{
-    color: rgb(110, 12, 238);
+    color: rgb(226, 196, 250);
+    font-weight: normal;
+    font-size: 25px;
 }
 .wrapper li{
     padding-bottom: 5px;
@@ -73,9 +87,10 @@ a:hover{
     border: 2px solid blue;
     border-radius: 8px;
     padding: 5px;
+    margin-right: 2rem;
     
 }
 .wrapper ul{
-    padding-bottom: 15px;
-    border-bottom: 2px solid gray;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid rgb(243, 237, 237);
 }
