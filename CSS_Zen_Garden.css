@@ -26,7 +26,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
 }
 #zen-intro h1{
     font-size: 55px;
@@ -78,7 +78,7 @@ a:hover{
 .sidebar {
     display:block;
     position: absolute;
-    top: 41rem;
+    top: 42rem;
     left: 65% ;
     background-color: rgb(47, 170, 98);
     width:16rem;
