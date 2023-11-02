@@ -1,0 +1,151 @@
+#imageid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 550px;
+    z-index: -2;
+}
+#meme{
+    width: 550px;
+    float: center;
+    border: 10px red solid;
+    margin-left: auto;
+    margin-right: auto;
+    word-break: break-all;
+    background-image: "https://imgs.search.brave.com/HXvYYkNqg-iZmhvffPtADm8H8PrJ5NWvJhodbWIupWs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLmlt/Z2ZsaXAuY29tLzIv/M3IyZ3o5LmpwZw";
+    
+}
+#sidebar{
+   float: right;
+   
+
+}
+#top_text{
+
+   text-align: center;
+    font-family: impact;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0px 2px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 2px 5px #000;
+  }
+
+
+
+#bottom_text
+{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    text-align: center;
+    font-family: impact;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0px 2px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 2px 5px #000;
+}
+
+
+
+body{
+background-color: white;
+}
+
+#memeselector{
+    width:100px;
+
+}
+#memeselector:hover{
+    background-color: lightblue;
+    width: 125px;
+    cursor: pointer;
+}
+#colorpicker:hover{
+    background-color: lightblue;
+    width: 70px;
+    height: 35px;
+    cursor: pointer;
+}
+#colorpicker, #colorButton{
+  margin: auto;
+  display: block;
+}
+#input{
+    position: relative;
+    top: 20px;
+    width: 550px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border: red solid 20px;
+
+
+}
+#sidebar
+{
+    position: relative;
+    right: 50px;
+    bottom: 200px;
+    margin-left: 20px;
+    height: 500px;
+}
+h1{
+    text-align: center;
+}
+
+#top_box{
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    top: 75px;
+    height: 150px;
+    max-height: 150px;
+    width: 550px;
+ 
+}
+#bottom_box{
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    top: 480px;
+    height: 150px;
+    max-height: 150px;
+    overflow: auto;
+    width: 550px;
+
+}
+#top_button, #bottom_button{
+    position: relative;
+    left: 150px;
+}
+#txtbox_top, #txtbox_bottom{
+
+    width:400px;
+    height: 100px;
+}
+#color_title{
+    text-align: center;
+}
+#top_button:hover,#bottom_button:hover,#colorButton:hover{
+    background-color: lightblue;
+    cursor:pointer;
+}
