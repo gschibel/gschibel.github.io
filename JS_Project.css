@@ -1,5 +1,6 @@
 body{
     background-color: green;
+    overflow-x: hidden;
 }    
 #imageid{
     display: block;
@@ -187,9 +188,9 @@ h1{
     bottom: 20px;
 }
 #ball{
-    position:absolute; 
-    left:-500px; 
-    bottom:500px;
+    position:relative; 
+    left: -500px; 
+    bottom: 500px;
 }
 #template{
     justify-content: center;
