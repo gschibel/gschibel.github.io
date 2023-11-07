@@ -20,7 +20,7 @@
 <-->
 <body>
 <header> 
- <h1>Welcome to my meme maker page have fun with it or less....</h1>
+ <h1>Welcome to my meme maker page have fun with it or else....</h1>
 
 </header>
 
@@ -43,9 +43,9 @@
 
 
 <div id="sidebar">
-<table>
+<table id="table">
 <tr>
-    <th><h2>select your template</h2></th>
+    <th><h2 id="template">select your template</h2></th>
 </tr>
 <tr>
 <th><button onClick="FirstImage()"><image id="memeselector"src="https://imgs.search.brave.com/rphJoAd006-Yex_5wSTleYkd0SxJ5WTl94se30--1gI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLmlt/Z2ZsaXAuY29tLzQv/YzhiZHQuanBn"image></button></th>
@@ -57,7 +57,7 @@
     <th><button onClick="ThirdImage()"><image id="memeselector" src="https://imgs.search.brave.com/WtGpoGB1JAf-GtoIcveuZdTJevkHGFWvMq2vXGd9xO4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2YxL2Uz/LzNmL2YxZTMzZjgy/ZjcyYTI0ZTEwOGJl/YzA1Njg5ZDhlNjk3/LmpwZw"image></image></button></th>
 </tr>
 <tr>
-    <th><button onClick="FourthImage"><image id="memeselector" src="https://imgs.search.brave.com/O8Ql23wrmhLWRloIg1mI1AEENVo9jGEau2-OJ5XrD1E/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pY2hl/Zi5iYmNpLmNvLnVr/L25ld3MvOTc2L2Nw/c3Byb2RwYi9GMUYy/L3Byb2R1Y3Rpb24v/XzExODI4MzkxNl9i/MTljNWExZi0xNjJi/LTQxMGItODE2OS1m/NThmMGQxNTM3NTIu/anBn"image></image></button></th>
+    <th><button onClick="FourthImage()"><image id="memeselector" src="https://imgs.search.brave.com/O8Ql23wrmhLWRloIg1mI1AEENVo9jGEau2-OJ5XrD1E/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pY2hl/Zi5iYmNpLmNvLnVr/L25ld3MvOTc2L2Nw/c3Byb2RwYi9GMUYy/L3Byb2R1Y3Rpb24v/XzExODI4MzkxNl9i/MTljNWExZi0xNjJi/LTQxMGItODE2OS1m/NThmMGQxNTM3NTIu/anBn"image></image></button></th>
 </tr>
 <br>
 <tr>
@@ -67,13 +67,44 @@
 </table>
 <h2 id="color_title">select color</h2>
 <input type="color" id="colorpicker" value="#0000ff">
-<br>
 <button id="colorButton" onClick="ChangeColorbottom()"> Change Color</button>
 
 
 </div>
 
+<div id="custom">
+    <table>
+        <tr>
+            <th><h2>change your font-size</h2></th>
+        </tr>
+        <tr>
+            <th><h4> you can only change your font size between 20 and 35</h4></th>
+        </tr>
+        <tr>
+        <th><input type="number"  id="font_size" placeholder="input a number" max="35" min="20" ></th>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        <th>
+            <br><button id="sizeButton" onClick="changefontsize()"> change font-size</button></th>
+        </tr>
+        <tr>
 
+        </tr>
+        <tr> 
+
+        </tr>
+        <tr>
+           <th><h2 id="button_title">click the button below </h2></th>
+        </tr>
+        <tr>
+            <th><button id="Kirbobutton" Onclick="startMoving()"> click on this button to see something cool</button></th>
+        </tr>
+    </table>
+
+
+</div>
 
 <div id="input">
 <textarea id="txtbox_top" placeholder="top text">
@@ -91,10 +122,13 @@
 <br>
 <br>
 <br>
+
 <button  onClick="Bottom_Text()" id="bottom_button">submit bottom text</button>
 
 </div>
 
+
+<img src="https://media.printables.com/media/prints/329273/images/2831140_9b8101b0-a950-477b-9861-e89f7f8c6528/thumbs/inside/1280x960/webp/8c894702-4c8e-4c19-b445-64572da22e69.webp" id="ball" alt="ball" >
 </html>
 </body>
  
