@@ -35,6 +35,50 @@ function ChangeColorbottom(){
 }
 function changefontsize(){
     let size= document.getElementById('font_size').value;
-    document.getElementById('bottom_text').style.size = size;
-    document.getElementById('top_text').style.fontSize = size;
+    size_int= parseInt(size)
+    
+
+    if (size_int>=20 && size_int<=35){
+        console.log("good")
+    document.getElementById('bottom_text').style.setProperty("font-size", size + "px") ;
+    document.getElementById('top_text').style.setProperty("font-size", size + "px");
+    console.log(document.getElementById('bottom_text').style.getPropertyValue("font-size"))
+    }
+
+  
+}
+function Kirbobutton(){
+    Kirbo = document.getElementById('Kirbo')
+    timerId= setInterval(moveKirbo, 10);
+    console.log(Kirbo)
+}
+
+function moveKirbo(){
+    let left = parseInt(Kirbo.style.right);
+    console.log(left)
+    Kirbo.style.left= left+ 10+ "px";
+ 
+}
+
+let ballImage;
+let timerId;
+
+function startMoving() {        
+   ballImage = document.getElementById("ball");
+   document.getElementById('ball').style.setProperty("left", -500 + "px");
+   timerId = setInterval(moveBall, .01);
+}
+
+function moveBall(){
+    let left= parseInt(ballImage.style.left)
+    console.log(left)
+    if (left>= 1600){
+        clearInterval(timerId)
+        document.getElementById('ball').style.setProperty("left", -500 + "px");
+    }
+    else{
+    ballImage.style.left = left + 10 + "px";
+    }
+    console.log(left)
+ 
 }
