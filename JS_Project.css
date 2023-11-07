@@ -1,3 +1,6 @@
+body{
+    background-color: green;
+}    
 #imageid{
     display: block;
     margin-left: auto;
@@ -9,7 +12,7 @@
 #meme{
     width: 550px;
     float: center;
-    border: 10px red solid;
+    border: 5px rgb(0, 0, 0) solid;
     margin-left: auto;
     margin-right: auto;
     word-break: break-all;
@@ -29,6 +32,7 @@
     color: white;
     font-size: 25px;
     letter-spacing: 1px;
+    z-index: 5;
     text-shadow:2px 2px 0 #000,
     -2px -2px 0 #000,
     2px -2px 0 #000,
@@ -71,6 +75,7 @@ background-color: white;
 
 #memeselector{
     width:100px;
+    height: 100px;
 
 }
 #memeselector:hover{
@@ -95,18 +100,22 @@ background-color: white;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    border: red solid 20px;
+    border: rgb(27, 168, 27) solid 5px;
 
 
 }
 #sidebar
 {
     position: relative;
-    right: 50px;
+    right: 45px;
     bottom: 200px;
-    margin-left: 20px;
-    height: 500px;
+    height: 700px;
+    border: rgb(22, 22, 180) 5px solid;
+    width: 250px;
+    margin-left: 50px;
+
 }
+
 h1{
     text-align: center;
 }
@@ -142,10 +151,57 @@ h1{
     width:400px;
     height: 100px;
 }
+#bottom_button{
+    margin-bottom: 20px;
+}
+#txtbox_top{
+    margin-top: 20px;
+}
 #color_title{
     text-align: center;
 }
-#top_button:hover,#bottom_button:hover,#colorButton:hover{
+#top_button:hover,#bottom_button:hover,#colorButton:hover,#Kirbobutton:hover, #sizeButton:hover{
     background-color: lightblue;
     cursor:pointer;
 }
+#custom{
+    position: relative;
+    
+    left: 65px;
+    bottom: 190px;
+    border: rgb(151, 19, 19)5px solid;
+    width: 225px;
+    float: left;
+    height: 450px;
+    width: 250px;
+    margin-right: 50px;
+
+}
+#Kirbobutton{
+    position: relative;
+    top: 50px;
+    
+}
+#sizebutton{
+    position: relative;
+    bottom: 20px;
+}
+#ball{
+    position:absolute; 
+    left:-500px; 
+    bottom:500px;
+}
+#template{
+    justify-content: center;
+    
+}
+#table{ 
+    position: relative;
+    left: 20px;
+}
+#button_title{
+    position: relative;
+    top: 50px;
+}
+
+    
