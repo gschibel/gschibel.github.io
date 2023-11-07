@@ -65,20 +65,23 @@ let timerId;
 
 function startMoving() {        
    ballImage = document.getElementById("ball");
-   document.getElementById('ball').style.setProperty("left", -500 + "px");
-   timerId = setInterval(moveBall, .01);
+   document.getElementById('ball').style.setProperty("visibility", "visible")
+   timerId = setInterval(moveBall, .1);
+   document.getElementById('ball').style.setProperty("left", -500 + "px")
 }
 
 function moveBall(){
-    let left= parseInt(ballImage.style.left)
+    
+    let left= parseInt(ballImage.style.left);
     console.log(left)
-    if (left>= 1600){
-        clearInterval(timerId)
-        document.getElementById('ball').style.setProperty("left", -500 + "px");
+    if (left > document.body.clientWidth){
+        clearInterval(timerId);
+        document.getElementById('ball').style.setProperty("visibility", "hidden")
+        clearInterval(timerId);
     }
     else{
     ballImage.style.left = left + 10 + "px";
-    }
+    };
     console.log(left)
  
-}
+}   
