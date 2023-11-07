@@ -190,7 +190,8 @@ h1{
 #ball{
     position:relative; 
     left: -500px; 
-    bottom: 500px;
+    bottom: 50rem;
+
 }
 #template{
     justify-content: center;
